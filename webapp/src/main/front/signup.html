@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../bootstrap3/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap3/font-awesome-4.7.0/css/font-awesome.css"/>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2-2 col-md-8">
+                <h1><small>Thanks for choosing</small> <b>SmartBlog</b></h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2>Create Your Account</h2>
+                </div>
+
+                <div class="panel-body">
+                    <form action="home.html" class="form-horizontal" role="form">
+                        <div class="form-group row">
+                            <label for="un" class="col-md-2 control-label">Username</label>
+                            <div class="col-md-8">
+                                <form  action="RegServlet" method="post">
+                                    <input class="form-control" type="text" id=un name="username">
+                                </form>
+
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="pwd" class="col-md-2 control-label">Password</label>
+                            <div class="col-md-8">
+                                <form  action="RegServlet" method="post">
+                                    <input class="form-control" type="password" id=pwd name="username">
+                                </form>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <input type="submit" class="btn btn-default" value="Sign Up">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div>
+                <span>
+                    <a href="home.html">Sign Up</a>
+                </span>
+                <span class="pull-right">
+                    <a href="home.html">Home Page</a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<footer class="container">
+    <div class="text-center">
+        <b>Copyright © 2021 <a target="_blank" href="https://news.westernu.ca/">Western News</a> </b>
+    </div>
+
+</footer>
+</body>
+<script type="text/javascript" src="../bootstrap3/jquery.min.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/bootstrap.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/holder.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/html5shiv.min.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/respond.min.js"></script>
+</html>
